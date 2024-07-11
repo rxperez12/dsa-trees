@@ -7,7 +7,7 @@ import { TreeNodeNum } from "../common/tree";
 
 function maxDepth(node: TreeNodeNum | null): number {
   if (node === null) return 0;
-  if (node.children.length <= 0) return 1;
+  // if (node.children.length <= 0) return 1;
 
   let depth = 0;
 

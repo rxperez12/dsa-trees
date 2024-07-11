@@ -5,7 +5,7 @@ import { TreeNodeNum } from "../common/tree";
 function sumValues(node: TreeNodeNum): number {
 
   // base case node children === 0
-  if(node.children.length === 0) return node.val;
+  // if(node.children.length === 0) return node.val;
 
   //if children is equal more than 0, get first value
   // return value  + sum rest of children
